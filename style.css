@@ -1,0 +1,116 @@
+/* General */
+body {
+
+    font-family: sans-serif;
+    margin: 0;
+    background: #e0e0e0;
+}
+/* Header */
+header {
+    background: #1a89bc;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #1664a0;
+}
+nav a {
+
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #1a25bc;
+}
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.about img {
+    width: 130px;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Skills */
+#skills {
+    padding: 30px;
+    text-align: center;
+}
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skill-card {
+    background: white;
+    padding: 15px;
+    width: 130px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+/* Contact */
+#contact {
+    background: #1a89bc;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+form {
+    max-width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background: #144d73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0f3a57;
+}
+/* footer */
+footer {
+    background: #1664a0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
