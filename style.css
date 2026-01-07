@@ -31,7 +31,7 @@ nav a:hover {
 }
 /* About */
 .about {
-    display: flex;
+    display: flexbox;
     align-items: center;
     padding: 40px;
 }
